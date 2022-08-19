@@ -18,5 +18,5 @@ while True:
     im = ImageGrab.grab( bbox = (794, 283, 796, 286))  
     if im.getpixel((0, 0))  == (172, 172, 172):
         pyautogui.press('space');
+        continue;
 
- 
